@@ -1,0 +1,32 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Variables de entorno y secretos
+.env
+*.pem
+*.key
+token.json
+credentials.json
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs y herramientas
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos del Agente IA (Memoria local y configuraciones)
+brain/
+.agent/
+openspec/
+scripts/
+
+# Bases de datos locales
+*.sqlite3
+*.db

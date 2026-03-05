@@ -1,0 +1,34 @@
+# Compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project configuration (secret)
+client_secret*.json
+token.json
+credentials.json
+*.db
+*.sqlite3
+
+# Git
+.git/
+.gitignore
+
+# Agent tools
+.agent/
+brain/
+openspec/
+scripts/
+
+# Settings
+.vscode/
+.idea/
